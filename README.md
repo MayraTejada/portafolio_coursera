@@ -6,7 +6,11 @@ Donde se busca la aplicación práctica de los anteriores cursos: Introduction t
 
 Es una pequeña web de mi experiencia como estudiante.
 
-Nota: Las imagenes utilizadas aquí no son de mi propiedad, son imagenes tomadas de internet con caracter educativo sin animo de lucro.
+Nota: Las imagenes que describo a continuación (tienen ese nombre en la carpeta image ), no son de mi propiedad, son tomadas de internet con un fin educativo y sin animo de lucro.
+      
+      -- comidas.jpg   https://elviajerofeliz.com/comida-tipica-de-bangladesh/
+      -- Data-Analytics.png  https://neetwork.com/metricas-de-google-analytics/
+      -- musica.jpg   https://hardspeakrecords.com/blog
 
 
-
+ 
