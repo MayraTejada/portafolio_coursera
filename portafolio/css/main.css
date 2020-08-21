@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #FAfAfa;
+}
+
+h1{
+  margin-top: 12px;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-family: "Bebas Neue", serif;
+}
+
+h2{
+ font-family: "Bebas Neue", serif;
+}
+
+/*---NAVIGATION BAR---*/
+
+.navbar-brand img {
+  width:80px;
+}
+
+nav[class^="navbar"]{
+  background-color: rgb(203,203,203);
+
+}
+
+nav li {
+  display: inline-block;
+  line-height: 50px;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-size: 160%;
+  letter-spacing: 0.6pt;
+  font-weight: lighter;
+}
+
+li a:hover{
+  text-decoration: underline;
+  color: #c81414;
+  opacity: 0.6;
+}
+
+.active{
+    color: #c81414;
+}
+
+/*--- content index.html---*/
+img{
+  width:100%;
+  vertical-align:middle;
+  padding-right: 5px;
+}
+
+
+.m-quarter img:hover{
+  opacity: 0.6;
+}
+
+.m-quarter{
+  width:100%;
+}
+
+.m-row-padding,.m-row-padding>.m-quarter{
+  padding:0 0px;
+}
+
+p.lead {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.subheading {
+  font-weight: 500;
+  font-family:sans-serif;
+  font-size: 1.5rem;
+}
+
+div[class^="m-content"]{
+  max-width:1200px;
+  margin-top:20px;
+}
+
+section.resume-section {
+  max-width: 75rem;
+  text-align: center;
+  margin: auto;
+}
+
+.text-primary {
+  color: #c81414 !important;
+}
+
+a {
+  color: #000;
+}
+
+a:hover, a:focus, a:active {
+  color: #c81414;
+  opacity: 0.8;
+
+}
+
+/*Enhancements!!
+You need to add FOUR elements to your site that are unique*/
+
+/* 1) Add a third viewport layout*/
+
+@media (min-width:220px){
+  .m-quarter{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 30%;
+  }
+
+  div[class^="subheading mb-3"]{
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    color: #868e96;
+  }
+
+  #programming{
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    color: #868e96;
+  }
+
+}
+
+
+
+@media (min-width:601px){
+  .m-quarter{
+    width:25.99999%;
+    margin: auto;
+  }
+
+  ul.col3{
+    padding-right:  0px;
+    padding-left:  0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 15px 0px;
+    width: 100%;
+    padding-top:  0px;
+    list-style-type:  none
+  }
+
+  ul.col3 li{
+    padding-right: 2px;
+    display: inline;
+    padding-left: 2px;
+    float:  right;
+    padding-bottom: 2px;
+    width: 30%;
+    padding-top: 2px
+  }
+
+  .mio{
+    padding-bottom: 125px;
+  }
+
+  div[class^="subheading mb-3"]{
+    text-align: left;
+    font-family: "Bebas Neue", serif;
+    color: #868e96;
+  }
+
+}
+
+@media (min-width:993px){
+  .m-content{
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .w-100{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  #myCarousel{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+  }
+
+
+  ul.col3{
+    padding-right:  0px;
+    padding-left:  0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 15px 0px;
+    width: 100%;
+    padding-top:  0px;
+    list-style-type:  none
+  }
+
+  ul.col3 li{
+    padding-right: 2px;
+    display: inline;
+    padding-left: 2px;
+    float:  right;
+    padding-bottom: 10px;
+    width: 30%;
+    padding-top: 2px
+
+  }
+
+  .mio{
+    padding-bottom: 125px;
+  }
+
+  #programming{
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    color: #868e96;
+
+  }
+}
+
+/* 2) Include a Carousel for your images*/
+/*------- carousel modifications -----------*/
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+a[class^="carousel-control"]{
+  color: #000;
+}
+
+a[class^="carousel-control"] span:hover{
+  color: #000;
+}
+
+a[class^="carousel-control"] span::before{
+  color: #000;
+}
+
+.carousel-indicators li{
+  background-color: #000;
+  height: 6px;
+}
+
+/* 3) Font Awesome */
+
+.social-icons a {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:hover {
+  background-color: #c81414;
+}
+
+.social-icons{
+  padding-bottom: 5px;
+}
+
+.dev-icons {
+    font-size: 3rem;
+}
+
+#color:hover{
+  color: #c81414;
+  opacity: 0.7;
+}
+
+.mio ul{
+  text-align: left;
+}
+
+/* 4) Sticky footer */
+/*---------footer---------*/
+
+footer{
+    background-color: rgba(203,203,203,0.2);
+    text-align:center;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 5px;
+}
+
+#cont{
+  min-height: 100vh;
+  margin-bottom: -60px;
+
+}
+
+#cont:after{
+  content: "";
+  display: block;
+  height: 60px;
+}
